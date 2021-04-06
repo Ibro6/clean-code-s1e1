@@ -39,7 +39,7 @@ body {
     flex-grow: 1
 }
 
-.add-item-wrapper {
+.add-item__wrapper {
     display: flex;
 }
 
