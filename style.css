@@ -170,17 +170,33 @@ ul#completed-tasks label {
 
 
 /* Edit Task */
-ul input[type=text] {
+.incompleted-task input[type=text] {
     display:none;
 }
 
 
-ul.edit-mode input[type=text] {
+.incompleted-task.edit-mode input[type=text] {
     display:inline-block;
     width:224px;
 }
 
 
-ul.edit-mode label {
+.incompleted-task.edit-mode label {
+    display:none;
+}
+
+
+.completed-task input[type=text] {
+    display:none;
+}
+
+
+.completed-task.edit-mode input[type=text] {
+    display:inline-block;
+    width:224px;
+}
+
+
+.completed-task.edit-mode label {
     display:none;
 }
